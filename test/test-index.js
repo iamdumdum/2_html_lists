@@ -19,7 +19,7 @@ describe('index.html', () => {
         it('ul tag should exists', () => {
             expect(document.querySelector('ul')).to.exist
         })
-        it('ul should contain THREE li tags', () => {
+        it('ul tag should contain THREE li tags', () => {
             expect(document.querySelector('ul')).to.have.descendants('li').and.have.length(3)
         })
         it('lists should not be empty', () => {
@@ -41,7 +41,7 @@ describe('index.html', () => {
         it('ol tag should exists', () => {
             expect(document.querySelector('ol')).to.exist
         })
-        it('ol should contain THREE li tags', () => {
+        it('ol tag should contain THREE li tags', () => {
             expect(document.querySelector('ol')).to.have.descendants('li').and.have.length(3)
         })
         it('lists should not be empty', () => {
